@@ -55,6 +55,7 @@ function check() {
         }
         userAnwswer[KEYS[i-1]] = tmp;
 
+        $(`#q${i}`).attr('class', '');
         if (compare(userAnwswer[KEYS[i-1]], answers[KEYS[i-1]])) {
             $(`#q${i}`).addClass('good');
         }
