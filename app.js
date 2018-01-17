@@ -20,7 +20,7 @@ let answers = {
     questionSix: [false, true, false, false],
     questionSeven: [true, true, true, false],
     questionEight: [true, false, false, false],
-    questionNine: [false, true, false, false],
+    questionNine: [true, false, false, false],
     questionTen: [true, false, false, false],
 }
 
